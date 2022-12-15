@@ -1,8 +1,8 @@
 package io.github.asewhy.processors.support;
 
-import io.github.asewhy.processors.support.interfaces.iWriter;
+import io.github.asewhy.processors.support.interfaces.StringWriter;
 
-public class CommonBuilderWriter implements iWriter {
+public class CommonBuilderWriter implements StringWriter {
     private final StringBuilder builder;
 
     public CommonBuilderWriter(StringBuilder stream) {
